@@ -1,0 +1,60 @@
+/iitdh/home/c180010002/4
+iit
+Monday 25 April 2022 07:22:20 AM UTC
++ srun make exp0
+make: Warning: File 'ver0' has modification time 15 s in the future
+./ver0 1024
+Host to Device data transfer time: 0.800544ms
+GPU compute time: 1.3545ms
+Device to Host data transfer time: 0.515264ms
+./ver0 2048
+Host to Device data transfer time: 2.81974ms
+GPU compute time: 10.0978ms
+Device to Host data transfer time: 1.72614ms
+./ver0 4096
+Host to Device data transfer time: 10.6396ms
+GPU compute time: 86.8639ms
+Device to Host data transfer time: 6.79869ms
+./ver0 8192
+Host to Device data transfer time: 42.1928ms
+GPU compute time: 393.153ms
+Device to Host data transfer time: 28.7991ms
+make: warning:  Clock skew detected.  Your build may be incomplete.
++ srun make exp0
+make: Warning: File 'ver0' has modification time 12 s in the future
+./ver0 1024
+Host to Device data transfer time: 0.78672ms
+GPU compute time: 0.629792ms
+Device to Host data transfer time: 0.523008ms
+./ver0 2048
+Host to Device data transfer time: 2.77811ms
+GPU compute time: 4.72118ms
+Device to Host data transfer time: 1.66733ms
+./ver0 4096
+Host to Device data transfer time: 10.6911ms
+GPU compute time: 45.0792ms
+Device to Host data transfer time: 6.50566ms
+./ver0 8192
+Host to Device data transfer time: 42.0825ms
+GPU compute time: 452.033ms
+Device to Host data transfer time: 28.7384ms
+make: warning:  Clock skew detected.  Your build may be incomplete.
++ srun make exp0
+make: Warning: File 'ver0' has modification time 9.5 s in the future
+./ver0 1024
+Host to Device data transfer time: 0.791744ms
+GPU compute time: 0.63072ms
+Device to Host data transfer time: 0.47296ms
+./ver0 2048
+Host to Device data transfer time: 2.77254ms
+GPU compute time: 4.7256ms
+Device to Host data transfer time: 1.72272ms
+./ver0 4096
+Host to Device data transfer time: 10.6095ms
+GPU compute time: 45.0683ms
+Device to Host data transfer time: 6.48589ms
+./ver0 8192
+Host to Device data transfer time: 41.845ms
+GPU compute time: 440.494ms
+Device to Host data transfer time: 25.5212ms
+make: warning:  Clock skew detected.  Your build may be incomplete.

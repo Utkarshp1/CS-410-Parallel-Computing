@@ -1,0 +1,89 @@
+/iitdh/home/c180030042/assignment4
+iit
+Monday 25 April 2022 04:45:40 PM UTC
++ srun make exp1
+make: Warning: File 'ver1.cu' has modification time 229 s in the future
+nvcc -O3 -g -std=c++11 -o ver1 ver1.cu
+ver1.cu(18): warning: variable "b_x" was declared but never referenced
+
+ver1.cu(19): warning: variable "b_y" was declared but never referenced
+
+./ver1 1024
+Host to Device data transfer time: 0.817856ms
+GPU compute time: 0.97696ms
+Average time for memory related operations per block: 0.0184452ms
+Average time for compute related operations per block: 0.0589266ms
+Device to Host data transfer time: 0.48624ms
+./ver1 2048
+Host to Device data transfer time: 2.43264ms
+GPU compute time: 7.17782ms
+Average time for memory related operations per block: 0.0188695ms
+Average time for compute related operations per block: 0.0626242ms
+Device to Host data transfer time: 1.70509ms
+./ver1 4096
+Host to Device data transfer time: 9.18659ms
+GPU compute time: 58.3609ms
+Average time for memory related operations per block: 0.0248612ms
+Average time for compute related operations per block: 0.0592788ms
+Device to Host data transfer time: 6.3584ms
+./ver1 8192
+Host to Device data transfer time: 35.8636ms
+GPU compute time: 290.355ms
+Average time for memory related operations per block: 0.0296932ms
+Average time for compute related operations per block: 0.0553318ms
+Device to Host data transfer time: 25.7938ms
+make: warning:  Clock skew detected.  Your build may be incomplete.
++ srun make exp1
+make: Warning: File 'ver1' has modification time 372 s in the future
+./ver1 1024
+Host to Device data transfer time: 0.687552ms
+GPU compute time: 0.455424ms
+Average time for memory related operations per block: 0.0191943ms
+Average time for compute related operations per block: 0.0584637ms
+Device to Host data transfer time: 0.460544ms
+./ver1 2048
+Host to Device data transfer time: 2.4256ms
+GPU compute time: 3.31648ms
+Average time for memory related operations per block: 0.0214802ms
+Average time for compute related operations per block: 0.0609755ms
+Device to Host data transfer time: 1.64406ms
+./ver1 4096
+Host to Device data transfer time: 9.23485ms
+GPU compute time: 26.9154ms
+Average time for memory related operations per block: 0.0316062ms
+Average time for compute related operations per block: 0.0534123ms
+Device to Host data transfer time: 6.5472ms
+./ver1 8192
+Host to Device data transfer time: 36.0768ms
+GPU compute time: 305.699ms
+Average time for memory related operations per block: 0.0290534ms
+Average time for compute related operations per block: 0.0561789ms
+Device to Host data transfer time: 25.1496ms
+make: warning:  Clock skew detected.  Your build may be incomplete.
++ srun make exp1
+make: Warning: File 'ver1' has modification time 368 s in the future
+./ver1 1024
+Host to Device data transfer time: 0.702208ms
+GPU compute time: 0.455776ms
+Average time for memory related operations per block: 0.0190259ms
+Average time for compute related operations per block: 0.0585906ms
+Device to Host data transfer time: 0.468288ms
+./ver1 2048
+Host to Device data transfer time: 2.39939ms
+GPU compute time: 3.31632ms
+Average time for memory related operations per block: 0.0213998ms
+Average time for compute related operations per block: 0.0610144ms
+Device to Host data transfer time: 1.66077ms
+./ver1 4096
+Host to Device data transfer time: 9.26691ms
+GPU compute time: 26.9131ms
+Average time for memory related operations per block: 0.0315934ms
+Average time for compute related operations per block: 0.0534209ms
+Device to Host data transfer time: 6.35763ms
+./ver1 8192
+Host to Device data transfer time: 36.1177ms
+GPU compute time: 293.582ms
+Average time for memory related operations per block: 0.02943ms
+Average time for compute related operations per block: 0.0555414ms
+Device to Host data transfer time: 27.3376ms
+make: warning:  Clock skew detected.  Your build may be incomplete.
